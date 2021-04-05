@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+header{
+    background-color: #d6d6d6;
+    height:192px;
+}
+
+#logo{
+    background-image: url(../images/logo.png);
+    width: 88px;
+    height:83px;
+    margin: 0px auto;
+    display:block;
+    background-repeat: no-repeat;
+    position: relative;
+    top:50px
+}
+
+nav{
+    background-color: #222222;
+    height:80px;
+}
+
+nav>div{
+    display:flex;
+    margin: auto auto;
+    width:752px;
+    height:60px;
+    position: relative;
+    top:26px;
+    left:-87px;
+}
+
+nav>div>section{
+    height: 40px;
+    width:236px;
+    text-align: center;
+}
+
+nav>div>section:hover{
+    background-color:rgb(175, 121, 162);
+}
+
+#layout1{
+    background-color: rgb(151, 28, 85);
+}
+
+body{
+    background-color: purple;
+}
+
+.wrapper{
+    margin:0 auto;
+    width:1000px;
+    display:block;
+}
+main{
+    background-color: #fff;
+    display: block;
+    width:756px;
+    height:756px;
+    float:left;
+}
+
+aside{
+    width:242px;
+    background-color: #eeeeee;
+    display: block;
+    float:left;
+    height:756px;
+}
+/* FOUR SQUARE CONTAINER */
+main >section>section, aside>section>section{
+    background-color: salmon;
+    width: 100px;
+    height: 100px;
+}
+
+main>section, #aside2>section{
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    width:236px;
+    height: 268px;
+    flex-wrap: wrap;
+}
+
+#group1{
+    left: 38px;
+    top:26px;
+}
+
+#group2{
+    left:495px;
+    top:174px; /* 438-26-238 */
+}
+
+aside>#section1{
+    width:147px;
+    height:56px;
+    background-color: lightcoral;
+    position: relative;
+    top: 200px;
+    left:80px;
+}
+
+footer{
+    height: 50px;
+    display: block;
+    background-color:palevioletred;
+    position: relative;
+    top:705px;
+}
+
+/* SECOND PAGE STARTS HERE */
+
+#nav2, #main2, #aside2{
+    float:left;
+    height:757px;
+}
+
+#nav2{
+    width:144px;
+}
+
+#nav2>section{
+    height:58px;
+}
+
+#nav2>section:hover{
+background-color: rgb(250, 200, 200);}
+
+#nav2>section>a{
+    position: relative;
+    left:8px;
+    top:15px;
+}
+
+#aside2{
+    width:259px;
+}
+
+#main2{
+    width:597px;
+}
+
+#aside2>section{
+    margin:0px auto;
+    top:460px;
+}
+
+#main2>section>section{
+    background-color: rgb(177, 82, 82);
+}
+#main2>section{
+    top: 23px;
+    display:flex;
+    justify-content: space-evenly;
+    width:580px;
+    height:735px;
+    margin:0 auto;
+}
+
+#main2>section>section{
+    width:270px;
+    float:left;
+    position: relative;
+}
+
+#firstrec{
+    height:320px;
+}
+
+#secondrec{
+    height:255px;
+}
+
+#thirdrec{
+    height:387px;
+    top:13px;
+}
+
+#fourthrec{
+    height:383px;
+    top:-50px;
+}
+
+#footer2{
+    position: fixed;
+    height: 50px;
+    background-color: rgb(247, 122, 191);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
