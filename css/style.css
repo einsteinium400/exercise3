@@ -34,12 +34,17 @@ nav{
 nav>div{
     display:flex;
     margin: auto auto;
-    width:752px;
+    width:707px;
     height:60px;
     position: relative;
     top:26px;
-    left:-87px;
+    /* left:-87px; */
 }
+
+#layout1>nav>div{
+    left:-108px;
+}
+
 
 nav>div>section{
     height: 40px;
@@ -56,7 +61,7 @@ nav>div>section:hover{
 }
 
 body{
-    background-color: purple;
+    background-color: white;
 }
 
 .wrapper{
@@ -64,7 +69,7 @@ body{
     width:1000px;
     display:block;
 }
-main{
+main, #main3{
     background-color: #fff;
     display: block;
     width:756px;
@@ -202,4 +207,62 @@ background-color: rgb(250, 200, 200);}
     bottom: 0px;
     left: 0px;
     right: 0px;
+}
+
+/* LAYOUT3 STARTS HERE */
+/* #layout3>body{
+    background-color: #fff;
+} */
+
+#layout3>.wrapper>main{
+    display: block;
+    width:1000px;
+    height:100%;
+}
+
+#layout3>.wrapper>main>article{
+    background-color: aqua; 
+    height: 347px;
+    float:left; 
+    width: 333px; 
+    background-repeat: no-repeat;
+    position: relative;
+}
+#layout3>.wrapper>main>article>div{
+    height: 50px;
+    width: 50px; 
+    background-image: url(../images/Star-icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right:-300px;    
+}
+
+#plus{
+    background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 105px;
+    display:block;
+    margin: 0px auto;
+    position: relative;
+    top: 125px;    
+}
+
+#footer3{
+    height: 50px;
+    clear: both;
+    background-color: rgb(107, 158, 154);
+    top:0px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #layout3>header, #layout3>nav, #footer3{
+        margin-right: -55px;
+    }
+    #layout3>.wrapper>main{
+        width:667px;
+        position: relative;
+        left: 200px;
+    }
 }
